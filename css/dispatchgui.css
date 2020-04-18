@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'uni_sansheavy_caps';
+  src: url('../fonts/uni-sans.heavy-caps-webfont.woff2') format('woff2'),
+       url('../fonts/uni-sans.heavy-caps-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'uni_sansheavy_caps';
+  /*background: linear-gradient(0deg, #1F2123 0%, #36393F 100%);*/
+  background: #1F2123;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'uni_sansheavy_caps';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #1F2123 0%, #36393F 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: #1F2123;
+  /*background: linear-gradient(0deg, #1F2123 0%, #36393F 100%);*/
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 5rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #7289DA !important;
+}
+
+.btn-primary {
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #7289DA !important;
+  border-color: #7289DA !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #7289DA;
+}
+
+.btn-secondary {
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #7289DA !important;
+  border-color: #7289DA !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem #7289DA;
+}
